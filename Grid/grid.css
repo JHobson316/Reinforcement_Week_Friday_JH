@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(143, 22, 143);
+}
+#grid-container{
+    display: grid;
+    grid-template-columns: 1fr 10fr 2fr;
+    grid-template-rows: 3fr 2fr 5fr;
+}
+#grid-container > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 166, 0);
+    color: black;
+    font-family: sans-serif;
+    margin: 4px;
+}
+#one{
+    display: flex;
+    border: black solid 2px;
+    font-weight: bold;
+    grid-column: 1;
+    grid-row: 1/5;
+}
+#two{
+    display: flex;
+    background-color: aqua;
+    border: black solid 2px;
+    font-weight: bold;
+    grid-column: 2/3;
+    grid-row: 1/5;
+}
+#three{
+    display: flex;
+    background-color: aqua;
+    border: black solid 2px;
+    font-weight: bold;
+    grid-column: 3/4;
+    grid-row: 1/5;
+}
+#four{
+    display: flex;
+    background-color: aqua;
+    border: black solid 2px;
+    font-weight: bold;
+    grid-column: 1;
+    grid-row: 5/7;
+}
+#five{
+    display: flex;
+    background-color: aqua;
+    border: black solid 2px;
+    font-weight: bold;
+    grid-column:2/3;
+    grid-row:5/7;
+}
+#six{
+    display: flex;
+    background-color: aqua;
+    border: black solid 2px;
+    font-weight: bold;
+    grid-column: 3/4;
+    grid-row: 5/7;
+}
+#seven{
+    display: flex;
+    background-color: aqua;
+    border: black solid 2px;
+    font-weight: bold;
+    grid-row: 8/10;
+    grid-column: 1;
+}
+#eight{
+    display: flex;
+    background-color: aqua;
+    border: black solid 2px;
+    font-weight: bold;
+    grid-row: 8/10;
+    grid-column: 2/3;
+}
+#nine{
+    display: flex;
+    background-color: aqua;
+    border: black solid 2px;
+    font-weight: bold;
+    grid-column: 3/4;
+    grid-row: 8/10;
+}
