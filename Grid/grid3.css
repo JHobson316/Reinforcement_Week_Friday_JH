@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(108, 40, 203);
+}
+#main-container{
+    display: grid;
+    grid-template-columns: repeat(9, 200px);
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.block{
+    display: grid;
+    justify-content: center;
+    background-color: orange;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    font-weight: bold;
+}
+#three{
+    grid-row: 4;
+    grid-column: span 9;
+}

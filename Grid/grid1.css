@@ -7,7 +7,7 @@ body{
     grid-template-rows: 3fr 2fr 5fr;
 }
 #grid-container > div{
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     background-color: rgb(255, 166, 0);
@@ -16,14 +16,12 @@ body{
     margin: 4px;
 }
 #one{
-    display: flex;
     border: black solid 2px;
     font-weight: bold;
     grid-column: 1;
     grid-row: 1/5;
 }
 #two{
-    display: flex;
     background-color: aqua;
     border: black solid 2px;
     font-weight: bold;
@@ -31,7 +29,6 @@ body{
     grid-row: 1/5;
 }
 #three{
-    display: flex;
     background-color: aqua;
     border: black solid 2px;
     font-weight: bold;
@@ -39,7 +36,6 @@ body{
     grid-row: 1/5;
 }
 #four{
-    display: flex;
     background-color: aqua;
     border: black solid 2px;
     font-weight: bold;
@@ -47,7 +43,6 @@ body{
     grid-row: 5/7;
 }
 #five{
-    display: flex;
     background-color: aqua;
     border: black solid 2px;
     font-weight: bold;
@@ -55,7 +50,6 @@ body{
     grid-row:5/7;
 }
 #six{
-    display: flex;
     background-color: aqua;
     border: black solid 2px;
     font-weight: bold;
@@ -63,7 +57,6 @@ body{
     grid-row: 5/7;
 }
 #seven{
-    display: flex;
     background-color: aqua;
     border: black solid 2px;
     font-weight: bold;
@@ -71,15 +64,13 @@ body{
     grid-column: 1;
 }
 #eight{
-    display: flex;
     background-color: aqua;
     border: black solid 2px;
     font-weight: bold;
     grid-row: 8/10;
-    grid-column: 2/3;
+    grid-column: 2;
 }
 #nine{
-    display: flex;
     background-color: aqua;
     border: black solid 2px;
     font-weight: bold;

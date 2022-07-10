@@ -1,0 +1,26 @@
+body{
+    background-color: blueviolet;
+    margin: 10px;
+
+}
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    grid-template-rows: repeat(200px);
+    grid-gap: 5px;
+}
+.block{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    font-weight: bold;
+    margin: 5px;
+    border: 2px solid rgb(195, 131, 12);
+    border-radius: 5px;
+}
+#block9{
+    background: mistyrose;
+    grid-column: span 2;
+    grid-row: span 2;
+}

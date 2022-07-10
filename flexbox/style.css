@@ -1,5 +1,6 @@
 #flex-container1{
     display: flex;
+    flex-wrap: nowrap;
 }
 #flex-container1 > div{
     background-color: aqua;
@@ -26,20 +27,28 @@
 #flex-container2 > #long{
     width: 372px;
 }
-#flex-container3{
+.flex-container3{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    flex-basis: auto;
 }
-#flex-container3 > div{
-    flex-direction: row;
+.flex-container3 > div{
+    display: flex;
     background-color: aqua;
     margin: 10px;
     padding: 5px;
     border: black solid 3px;
     border-radius: 5px;
     height: 100px;
-    width: 100px;
+    width: 200px;
 }
-#flex-container3 > div:nth-of-type(3){
-    flex:2 ;
+#flex-container3-long{
+    display: flex;
+    background-color: aqua;
+    margin: 10px;
+    padding: 5px;
+    border: black solid 3px;
+    border-radius: 5px;
+height: 100px;
+width: 400px;
 }
